@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.ipynb_checkpoints
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data
+data/raw/
+data/processed/
+
+# Models
+models/*.pkl
+models/*.json
+
+# Virtual env
+venv/
+
+# Ignore datasets and model artifacts
+data/raw/
+models/*.pkl
+models/*.json
+
+# Ignore virtual environment
+venv/
