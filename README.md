@@ -27,6 +27,8 @@ This project follows a complete data science workflow:
 ---
 
 ## Repo Structure
+
+```text
 .
 ├── notebooks/
 │   ├── 01_eda.ipynb
