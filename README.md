@@ -52,6 +52,77 @@ This project follows a complete data science workflow:
 ├── README.md
 └── requirements.txt
 ```
+## Setup (Quickstart)
+
+### Prerequisites
+- **Python ≥ 3.10**  
+- **Git**  
+- *(Optional)* Conda or `venv` for isolated environments
+---
+
+### 1️. Clone the repository
+```bash
+git clone https://github.com/<your-username>/airbnb-paris-price-prediction.git
+cd airbnb-paris-price-prediction
+```
+---
+
+### 2️. Create & activate a virtual environment
+**macOS / Linux**:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+**Windows (PowerShell)**:
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+---
+### 3️. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+---
+### 4️. Get the data
+Download the latest Paris snapshot from [InsideAirbnb](http://insideairbnb.com/get-the-data.html)  
+Save it as either `listings.csv` or `listings.csv.gz` in the following structure:
+```
+airbnb-paris-price-prediction/
+└── data/
+    └── listings.csv   # or listings.csv.gz
+```
+### 5️. Run the notebooks (EDA → Features → Models)
+Install Jupyter (if not installed):
+```bash
+pip install jupyter
+```
+Start:
+```bash
+jupyter notebook
+```
+Then run in order:
+- `01_eda.ipynb` → data cleaning & exploration  
+- `02_feature_engineering.ipynb` → feature transformation  
+- `03_model_comparison.ipynb` → model training & evaluation
+
+The modeling notebook saves visualizations to:
+```
+reports/figures/
+  ├── correlation_matrix.png
+  ├── log_price_by_room_type.png
+  ├── model_comparison.png
+  ├── price_distribution_log.png
+  └── top_neighborhoods.png
+```
+---
+### 6️. (Optional) Run scripts directly
+
+Use Python modules for training/evaluation:
+```bash
+python -m src.train_model        # trains and evaluates models
+python -m src.evaluate_model     # outputs comparison plots & metrics
+```
 
 ## Features Used
 
