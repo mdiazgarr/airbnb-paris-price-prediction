@@ -76,7 +76,7 @@ Differences in log-transformed prices across room categories.
 
 ### Log-transformed Price Distribution
 Normalised distribution for modelling stability.  
-![Price Distribution](reports/figures/price_distribution.png)
+![Price Distribution](reports/figures/price_distribution_log.png)
 
 ---
 
