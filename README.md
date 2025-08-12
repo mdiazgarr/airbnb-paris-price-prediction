@@ -28,26 +28,27 @@ This project follows a complete data science workflow:
 
 ## Repo Structure
 .
-├─ notebooks/ 
-  └─ reports/figures/
-│     ├─ correlation_matrix.png
-│     ├─ log_price_by_room_type.png
-│     ├─ model_comparison.png
-│     ├─ price_distribution_log.png
-│     └─ top_neighborhoods.png
-│ └─ 01_eda.ipynb
-│ └─ 02_feature_engineering.ipynb
-│ └─ 03_model_comparison.ipynb
-├─ src/
-│  ├─ __pycache__/
-│  ├─ data_loader.py
-│  ├─ evaluate_model.py
-│  ├─ features.py
-│  └─ train_model.py
-├─ .gitignore
-├─ LICENSE
-├─ README.md
-└─ requirements.txt
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_model_comparison.ipynb
+├── reports/
+│   └── figures/
+│       ├── correlation_matrix.png
+│       ├── log_price_by_room_type.png
+│       ├── model_comparison.png
+│       ├── price_distribution_log.png
+│       └── top_neighborhoods.png
+├── src/
+│   ├── __pycache__/
+│   ├── data_loader.py
+│   ├── evaluate_model.py
+│   ├── features.py
+│   └── train_model.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 
 
 ## Features Used
