@@ -51,7 +51,7 @@ This project follows a complete data science workflow:
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-
+```
 
 ## Features Used
 
