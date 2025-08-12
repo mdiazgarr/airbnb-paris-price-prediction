@@ -29,7 +29,7 @@ This project follows a complete data science workflow:
 ## Repo Structure
 .
 ├─ notebooks/ 
-  └─ reports\figures/
+  └─ reports/figures/
 │     ├─ correlation_matrix.png
 │     ├─ log_price_by_room_type.png
 │     ├─ model_comparison.png
@@ -64,19 +64,19 @@ This project follows a complete data science workflow:
 
 ### Correlation Matrix
 Shows relationships between variables and identifies strong predictors of price.  
-![Correlation Matrix](reports\figures/correlation_matrix.png)
+![Correlation Matrix](reports/figures/correlation_matrix.png)
 
 ### Top 15 Neighborhoods by Listing Count
 Highlights supply distribution in Paris.  
-![Top Neighborhoods](reports\figures/top_neighborhoods.png)
+![Top Neighborhoods](reports/figures/top_neighborhoods.png)
 
 ### Price by Room Type
 Differences in log-transformed prices across room categories.  
-![Log Price by Room Type](reports\figures/log_price_by_room_type.png)
+![Log Price by Room Type](reports/figures/log_price_by_room_type.png)
 
 ### Log-transformed Price Distribution
 Normalised distribution for modelling stability.  
-![Price Distribution](reports\figures/price_distribution.png)
+![Price Distribution](reports/figures/price_distribution.png)
 
 ---
 
@@ -104,7 +104,7 @@ Normalised distribution for modelling stability.
 | Ridge         | 0.482     | 0.607      | 0.1747 |
 
 **Performance Plot:**  
-![Model Comparison](reports\figures/model_comparison.png)
+![Model Comparison](reports/figures/model_comparison.png)
 
 **Interpretation:**  
 - **XGBoost** had the lowest error and highest R².
